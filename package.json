@@ -1,0 +1,22 @@
+{
+  "name": "sample-rest01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nem3/test-rest01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nem3/test-rest01/issues"
+  },
+  "homepage": "https://github.com/nem3/test-rest01#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
