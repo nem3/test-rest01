@@ -51,5 +51,7 @@ app.get('/api/lineup/:id', (req, res) => {
 	res.send(lineup);
 });
 
-const port = process.env.PORT || 8080;
-app.listen(port, () => console.log('Listening on port ${port}..'));
+//const port = process.env.PORT || 8080;
+//app.listen(port, () => console.log('Listening on port ${port}..'));
+app.listen(8080, argv.fe_ip);
+console.log("App listening on port 8080");
