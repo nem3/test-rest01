@@ -1,5 +1,7 @@
 const express = require('express');
 const app = express();
+var argv = require('optimist').argv;
+
 app.use(express.json());
 
 const currentWeek = {
